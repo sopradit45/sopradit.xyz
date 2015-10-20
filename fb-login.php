@@ -77,7 +77,7 @@ if(isset($_SESSION['facebook_access_token'])) {
        
 } else {
 	$permissions = ['email']; // optional
-	$loginUrl = $helper->getLoginUrl('http://goonews.esy.es/', $permissions);
+	$loginUrl = $helper->getLoginUrl('http://localhost/sopradit.xyz/', $permissions);
 
 	echo '<a href="' . $loginUrl . '">Log in with Facebook!</a>';
 }
