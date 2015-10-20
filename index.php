@@ -43,7 +43,12 @@
             			<button type="submit" class="btn btn-default">Submit</button>
             		</form>
             		<ul class="nav navbar-nav navbar-right">
+                                          
+                               <li><?php require_once __DIR__ . '/fb-login.php'; ?> </li>
+                    
             			<li><a href="#">Link</a></li>
+                                
+                                
             			<li class="dropdown">
             				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
             				<ul class="dropdown-menu">
