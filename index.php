@@ -53,7 +53,7 @@
             					<li><a href="#">Separated link</a></li>
             				</ul>
             			</li>
-            		</ul>
+            		</ul> 
             	</div><!-- /.navbar-collapse -->
             </nav>
 <div id="carousel-id" class="carousel slide" data-ride="carousel">
