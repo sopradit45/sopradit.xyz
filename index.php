@@ -97,6 +97,62 @@
     <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
     <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<div class="jumbotron">
+				<div class="container">
+					<h1>Hello, world!</h1>
+					<p>Contents ...</p>
+					<p>
+						<a class="btn btn-primary btn-lg">Learn more</a>
+					</p>
+				</div>
+
+			</div>
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<div class="jumbotron">
+				<div class="container">
+					<h1>Hello, world!</h1>
+					<p>Contents ...</p>
+					<p>
+						<a class="btn btn-primary btn-lg">Learn more</a>
+					</p>
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<div class="list-group">
+				<a href="#" class="list-group-item active">Item 1</a>
+				<a href="#" class="list-group-item">Item 2</a>
+				<a href="#" class="list-group-item">Item 3</a>
+			</div>
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<div class="list-group">
+				<a href="#" class="list-group-item active">Item 1</a>
+				<a href="#" class="list-group-item">Item 2</a>
+				<a href="#" class="list-group-item">Item 3</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	  <div class="panel-body">
+			Panel content
+	  </div>
+	  <div class="panel-footer">
+			Panel footer
+		</div>
+</div>
+
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
