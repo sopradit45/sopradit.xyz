@@ -34,8 +34,17 @@
             	<div class="collapse navbar-collapse navbar-ex1-collapse">
             		<ul class="nav navbar-nav">
             			<li class="active"><a href="#">Link</a></li>
+                        <?php 
+                        require_once __DIR__ . '/fb-login.php';
+
+
+
+                         ?>
+
             			<li><a href="#">Link</a></li>
             		</ul>
+
+
             		<form class="navbar-form navbar-left" role="search">
             			<div class="form-group">
             				<input type="text" class="form-control" placeholder="Search">
