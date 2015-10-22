@@ -60,15 +60,34 @@
             	</div><!-- /.navbar-collapse -->
             </nav>
 
-<div class="panel panel-default">
-	  <div class="panel-body">
-			Panel content
-	  </div>
-	  <div class="panel-footer">
-			Panel footer
-		</div>
-</div>
+<div class="clearfix">
+<?php
+$x=1;
+while ($x <= 12){
+    ?>
 
+
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <div class="jumbotron">
+    <div class="container">
+       <img style='width:100%;' src='img/logo.png'/>    
+    </div>
+        <div class="container">
+            <h1>Hello, world! <?php echo $x ?> </h1>
+            <p>Contents ...</p>
+            <p>
+                <a class="btn btn-primary btn-lg">Learn more</a>
+            </p>
+        </div>
+    </div>
+
+</div>
+<?php 
+$x++;
+}
+?>
+
+</div>
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
