@@ -70,13 +70,14 @@ if(isset($_SESSION['facebook_access_token'])) {
         $userNid=$userNode->getId();
         $useremail=$userNode->getEmail();
 	//echo "<img src='".$picture['url']."'/>";
-	echo '<a href="">' . $useremail . '</a>';
+	echo '<a href="">' . $username . '</a>';
       //  echo '<hr width="300" align="left" > รหัส ไอดีของคุณ  :  ' . $userNode->getId();
       //  echo ' <hr width="300" align="left" > อีเมลล์ของคุณ :  ' . $userNode->getEmail();
       //  echo '<hr width="300" align="left" >';
        
 } else {
 	$permissions = ['email']; // optional
+	//$loginUrl = $helper->getLoginUrl('http://localhost/sopradit.xyz/', $permissions);
 	$loginUrl = $helper->getLoginUrl('http://sopadit.xyz/', $permissions);
 
 	echo '<a href="' . $loginUrl . '">Log in with Facebook!</a>';

@@ -34,12 +34,6 @@
             	<div class="collapse navbar-collapse navbar-ex1-collapse">
             		<ul class="nav navbar-nav">
             			<li class="active"><a href="#">Link</a></li>
-                        <?php 
-                        require_once __DIR__ . '/fb-login.php';
-
-
-
-                         ?>
 
             			<li><a href="#">Link</a></li>
             		</ul>
@@ -52,7 +46,11 @@
             			<button type="submit" class="btn btn-default">Submit</button>
             		</form>
             		<ul class="nav navbar-nav navbar-right">
-                             
+                         <li>  
+                        <?php 
+                        require_once __DIR__ . '/fb-login.php';
+                         ?>
+                      </li>
             			<li><a href="#">Link</a></li>
                                 
                                 
